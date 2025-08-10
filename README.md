@@ -143,12 +143,12 @@ graph TD
 
 ### 🔧 安装步骤
 
-#### 方法一：直接安装（推荐）
+#### 直接安装
 
 ```bash
 # 1. 克隆项目
 git clone https://github.com/ErosiveSquare/Integration_DAS_FMAM.git
-cd liquid_flow_battery_multi_market
+cd Integration_DAS_FMAM
 
 # 2. 创建虚拟环境（推荐）
 python -m venv venv
@@ -163,15 +163,6 @@ pip install -r requirements.txt
 streamlit run app/multi_market_app.py
 ```
 
-#### 方法二：Docker部署
-
-```bash
-# 1. 构建镜像
-docker build -t liquid-battery-optimizer .
-
-# 2. 运行容器
-docker run -p 8501:8501 liquid-battery-optimizer
-```
 
 ### 🌐 访问系统
 
