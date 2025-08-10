@@ -366,7 +366,7 @@ RARR = (R_QP - R_QO) / (σ(R_QP) + ε)
 ```bash
 # 1. Fork项目到个人仓库
 # 2. 克隆到本地
-git clone https://github.com/your-username/liquid_flow_battery_multi_market.git
+git clone https://github.com/ErosiveSquare/Integration_DAS_FMAM.git
 
 # 3. 创建开发分支
 git checkout -b feature/your-feature-name
